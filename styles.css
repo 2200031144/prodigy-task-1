@@ -1,0 +1,68 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212; /* Dark background for the body */
+    color: #e0e0e0; /* Light text color for better readability on dark background */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #1c1c1c; /* Fixed darker navigation bar */
+    color: #e0e0e0;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff69b4; /* HotPink */
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+#home {
+    background: #2e8b57; /* SeaGreen */
+}
+
+#about {
+    background: #4682b4; /* SteelBlue */
+}
+
+#services {
+    background: #6a5acd; /* SlateBlue */
+}
+
+#contact {
+    background: #cd5c5c; /* IndianRed */
+}
+
+.scrolled {
+    background: #1c1c1c; /* Keeping the navigation bar background fixed */
+}
